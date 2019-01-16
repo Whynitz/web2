@@ -1,0 +1,42 @@
+		#grid {
+			display: grid;
+			grid-template-columns: 260px 1fr;
+		}
+		body {
+			margin: 0;
+		}
+		a {
+			color:#2E2E2E;
+			text-decoration:none;
+		}
+		h1 {
+			font-size: 50px;
+			text-align: center;
+			border-bottom: dotted 2px gray;
+			padding: 25px;
+			margin: 0;
+		}
+		ol {
+			padding: 20px;
+			padding-left: 30px;
+			margin: 0;
+			width: 180px;
+			border-right: dotted 2px gray;
+		}
+		li {
+			margin-bottom: 20px;
+		}	
+		#present {
+			display: block;
+			background-color: #A1E3DA;
+			color: white;
+		}
+		@media(max-width:800px) {
+			#grid {
+				display: block;
+			}
+			ol {
+				border-right: none;
+				width: auto;
+			}
+		}
